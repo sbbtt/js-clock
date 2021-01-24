@@ -1,15 +1,27 @@
 body {
-    background-color: #81ecec;
-    color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  background-color:#2C3F46;
+  color: rgb(241, 234, 255);
+  display:flex;
+  align-items:center;
+  flex-direction: column;
   }
-  
+
+li {
+ list-style: none;
+}
+
+
   .btn {
     cursor: pointer;
   }
-  
+  .done{
+    display: none;
+  }
   h1 {
     color: #ffffff;
     transition: color 0.5s ease-in-out;
+    font-size:3.5rem;
   }
   
   .clicked {
@@ -23,17 +35,25 @@ body {
   
   .showing {
     display: block;
+    
+  }
+  input{
+    border: 1.5px solid #73BBB4;
+    height:50px;
+    width : 250px;
+    padding-left:25px;
+    border-radius : 5px;
+    background-color : #2C3F46; 
+    color: greenyellow;
+  }
+  
+  ::placeholder{
+    color:white;
+    font-family: 'Lato', sans-serif; 
   }
   
 
 
-  @keyframes fadeIn{
-    from{
-      opacity: 0;
-    }to{
-      opacity: 1;
-    }
-  }
 
   .bgImage{
     position: absolute;
@@ -46,8 +66,8 @@ body {
   }
   .clock {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 30%;
+    left: 20%;
     transform: translateX(-50%) translateY(-50%);
     color: #17D4FE;
     font-size: 60px;
