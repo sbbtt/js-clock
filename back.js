@@ -4,9 +4,9 @@ const IMG_NUMBER = 3;
 
 function paintImage(potato){
     const image = new Image();
-     image.src= `/images/${potato + 1}.jpg`;
-     image.classList.add("bgImage")
-     body.prepend(image);
+    image.src= `/images/${potato + 1}.jpg`;
+    image.classList.add("bgImage")
+    body.prepend(image);
 
     
 }
@@ -22,4 +22,3 @@ function init(){
     paintImage(randomNumber);
 }
 init();
-
