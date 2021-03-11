@@ -1,4 +1,4 @@
-# Vanilla JS - To-do List with clock 
+# Vanilla JS<br>  To-do List with clock 
 
 🧷PREVIEW
 
